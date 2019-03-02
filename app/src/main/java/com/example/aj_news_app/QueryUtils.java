@@ -29,7 +29,7 @@ public class QueryUtils {
 
     static String createStringUrl() {
         Uri.Builder builder = new Uri.Builder();
-        builder.scheme("http")
+        builder.scheme("https")
                 .encodedAuthority("content.guardianapis.com")
                 .appendPath("search")
                 .appendQueryParameter("order-by", "newest")
